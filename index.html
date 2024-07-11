@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gustavo Martinez</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">
+        <h1>Gustavo Martinez</h1>
+        <nav>
+          <ul>   <!-- Here i added the attribute href to specify the the URLs destination in the website, for this example i went back to Module 01 Challenge when I added the extra href id in the html to be able to redirect to the missing URL-->
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+<!-- I searched up how to add an image and text infront of the image and it redirected me to this code to install in html for our subtitle to add text in the bottom right https://www.w3schools.com/howto/howto_css_image_text.asp-->
+      <div class="container">
+        <img src="https://as2.ftcdn.net/v2/jpg/00/98/51/39/1000_F_98513963_kUhivDRmAE3zdAwjYZM80jdauUmqR7A2.jpg"
+            alt="Wood" style="width:100%; height: 150px;">
+        <div class="bottom-right">From Building Houses to Building Codes</div>
+    </div>
+    <div class="content">
+      <section id="about">
+        <div>
+          <h2>About Me</h2>
+          <div class="vertical-line"></div> <!-- added a verical linee class to be able to target in CSS and create the line that seperates the About Me from the description of about me-->
+        </div>
+        <p>
+          My name is Gustavo and I am 24 years old
+          <br /><br />
+        I am currently working in construction.
+        </p>
+      </section>
+      <section id="work">
+        <h2>Work</h2>
+        <div class="vertical-line-work"></div> 
+        <div class="projects">
+          <div class="featured-project">
+            <div class="image-container">
+              <!--For this section i had it like the mock upbut some of the code erased and i kept trying to go back to how i had it but was not able to get it to how i had it-->
+              <div class="caption-box caption-box-first">
+                <div class="caption">Surf Report</div>
+                <div class="description">MERN Stack</div>
+              </div>
+            </div>
+          </div>
+          <div class="images">
+            <div class="image-container">
+              <img src="https://as2.ftcdn.net/v2/jpg/07/89/03/95/1000_F_789039544_wXvRHeHIxplyA9BfMnaWxA86YyQPPNBB.jpg" alt="ledWall" />
+              <div class="caption-box">
+                <div class="caption">LED WALL</div>
+                <div class="description">Node/IoT</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="https://as2.ftcdn.net/v2/jpg/06/26/94/95/1000_F_626949561_ETsnWc0EQckXgMF5rYjUltVW0uRjnBbJ.jpg" alt="computer" />
+              <div class="caption-box">
+                <div class="caption">Calculator</div>
+                <div class="description">React/Javascript/CSS</div>
+              </div>
+            </div>
+          </div>
+          <div class="images">
+            <div class="image-container">
+              <img src="https://as1.ftcdn.net/v2/jpg/07/26/01/80/1000_F_726018070_OupUB3uYwte3o9SWElf9jcnR28XuTpKx.jpg" alt="pastelPuzzles" />
+              <div class="caption-box caption-width">
+                <div class="caption">Pastel Puzzles</div>
+                <div class="description">Mern Stack</div>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="https://as1.ftcdn.net/v2/jpg/04/84/00/80/1000_F_484008031_4mG3CYoJbBKGrrbzJe8SXAwGVKAPh5fi.jpg" alt="runBuddy" />
+              <div class="caption-box">
+                <div class="caption">Run Buddy</div>
+                <div class="description">HTML/CSS</div>
+              </div>
+            </div>
+          </div>
+         </div>
+      </section>
+      <section id="contact">
+        <h2>Contact <br> Me</h2>
+        <div class="vertical-line-contact"></div>
+        <div class="contact-info"> <!-- Contact-item class to target in CSS to be able to adsd color underline and styles-->
+          <span class="contact-item">323-994-0340</span>
+          <span class="contact-item">gustavo.mrtnz99@gmail.com</span>
+            <!-- added the href to insert my github URL, added the target to specify where to open URL and _blank to open URL in new window or tab source was https://www.w3schools.com/html/html_links.asp-->
+            <a href="https://github.com/gustavomrtnz" target="_blank">GitHub</a>
+          </span>
+        </div>
+        
+      </section>
+    </div>
+  </body>
+</html>
