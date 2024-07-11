@@ -1,6 +1,6 @@
 # My-Portfolio-GM
 
-##Create A Portfolio to use later on
+## Create A Portfolio to use later on
 
 In this challenge we were able to set up a simple personal Portfolio using our own HTML Semantic Elements and HTML Syntax. Aside from creating an html from scratch we also has to create our own CSS stylesheet using Advanced CSS elements such as pseudo classes and elements, box styling, CSS Selectors and Variables. 
 
